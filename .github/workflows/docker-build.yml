@@ -3,7 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - "main"
+      - "master"
 
 jobs:
   build:
@@ -30,4 +30,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           provenance: false
           push: true
-          tags: bitcoinnanolabs/n8n:latest
+          tags: bitcoinnanolabs/gpt-researcher:latest
